@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where node:*)",
+      "Bash(where npm:*)",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Read(//c/Users/Alvin/AppData/Roaming/npm//**)",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\(''/c/Users/Alvin/Desktop/cornor_stone_church/.claude/worktrees/compassionate-dewdney/photos/photo-04.jpeg''\\); img2 = img.rotate\\(90, expand=True\\); img2.save\\(''/c/Users/Alvin/Desktop/cornor_stone_church/.claude/worktrees/compassionate-dewdney/photos/photo-04.jpeg'', quality=95\\); print\\(''done''\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python -c \":*)"
+    ]
+  }
+}
